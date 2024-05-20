@@ -65,23 +65,12 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
 
-Use NoSQL_analysis_starter.ipynb for this section of the challenge.
-
-Some notes to be aware of while you are exploring the dataset:
-
-    RatingValue refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating.
-        Note: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. We will coerce non-numeric values to nulls during the database setup before converting ratings to integers.
-    The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
-
-Use the following questions to explore the database, and find the answers, so you can provide them to the magazine editors.
-
-Unless otherwise stated, for each question:
-
-    Use count_documents to display the number of documents contained in the result.
-
-    Display the first document in the results using pprint.
-
-    Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
+- Use NoSQL_analysis_starter.ipynb for this section of the challenge.
+- Use the following questions to explore the database, and find the answers, so you can provide them to the magazine editors.
+- Unless otherwise stated, for each question:
+    - Use count_documents to display the number of documents contained in the result.
+    - Display the first document in the results using pprint.
+    - Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
     Which establishments have a hygiene score equal to 20?
 
